@@ -1,0 +1,4 @@
+# FoxFW user key dictionary (mf_classic)
+# Keys you collect are appended here by the NFC app.
+# Cleaned 2026-10-04: all previously stored user keys were already present in
+# the shipped mf_classic_dict.nfc, so they were removed here to avoid duplicates.
