@@ -1,0 +1,8 @@
+Filetype: Flipper SubGhz Key File
+Version: 1
+Frequency: 315000000
+Preset: FuriHalSubGhzPresetOok650Async
+Protocol: PSA GROUP
+Bit: 128
+Key: FE 9C 89 30 12 0A 03 71
+Key_2: 00 00 00 00 00 00 95 DA

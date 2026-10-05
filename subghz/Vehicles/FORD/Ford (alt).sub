@@ -1,0 +1,12 @@
+Filetype: Flipper SubGhz Key File
+Version: 1
+Frequency: 434420000
+Preset: FuriHalSubGhzPresetOok650Async
+Protocol: Ford V0
+Bit: 64
+Key: 55 C3 48 41 A2 22 82 82
+Checksum: 16
+CRC: 90
+Serial: 1103807264
+Btn: 4
+Cnt: 130

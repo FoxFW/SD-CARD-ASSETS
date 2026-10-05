@@ -1,0 +1,12 @@
+Filetype: Flipper SubGhz Key File
+Version: 1
+Frequency: 433920000
+Preset: FuriHalSubGhzPreset2FSKDev238Async
+Protocol: Renault TPMS
+Id: 11189196
+Bit: 72
+Data: 00 37 CC BB AA 00 00 00
+Batt: 0
+Pressure: 1.50
+Ts: 0
+Temp: 25.0

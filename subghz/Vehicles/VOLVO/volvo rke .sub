@@ -1,0 +1,9 @@
+Filetype: Flipper SubGhz Key File
+Version: 1
+Frequency: 433920000
+Preset: FuriHalSubGhzPreset2FSKDev476Async
+Protocol: Volvo RKE
+Bit: 78
+Key: 00 00 30 F9 A2 D7 FD 68
+DataHi: 8192
+DataHi2: 0

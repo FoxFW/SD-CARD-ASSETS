@@ -1,0 +1,12 @@
+Filetype: Flipper SubGhz Key File
+Version: 1
+Frequency: 433920000
+Preset: FuriHalSubGhzPreset2FSKDev238Async
+Protocol: Citroen TPMS
+Id: 3258519560
+Bit: 80
+Data: 3C 8A 08 00 50 69 00 45
+Batt: 0
+Pressure: 1.00
+Ts: 0
+Temp: 20.0

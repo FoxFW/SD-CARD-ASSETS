@@ -1,0 +1,12 @@
+Filetype: Flipper SubGhz Key File
+Version: 1
+Frequency: 433920000
+Preset: FuriHalSubGhzPreset2FSKDev238Async
+Protocol: Ford TPMS
+Id: 1170514959
+Bit: 64
+Data: 45 BB 32 0F 10 20 30 A1
+Batt: 0
+Pressure: 1.00
+Ts: 0
+Temp: 20.0
