@@ -1,0 +1,57 @@
+SD CARD ASSETS — curation log
+=============================
+Performed by Claude (Cowork), 2026-10-05. Master folder: D:\SD CARD ASSETS
+
+GOAL
+  Fold "C:\Users\PC\Desktop\SD CARD ASSETS" and "D:\automotive_subs" into
+  D:\SD CARD ASSETS, remove duplicates, and sort — leaving one master folder.
+
+PHASE A — consolidation (Desktop + automotive_subs -> master)
+  - All 15 Desktop categories merged in (apps_data, badusb, ibutton, infrared,
+    lfrfid, music_player, nfc, picopass, rfidfuzzer, subghz, subghz_remote,
+    subplaylist, unirf, wav_player). ~47,000 files moved; exact duplicates
+    (same size+mtime / byte-identical) dropped.
+  - D:\automotive_subs (588 files, incl. a 1.57 GB file) merged into subghz.
+  - Conflict rule: when two files shared a path but differed, if one copy was
+    BOTH larger AND newer it won automatically; otherwise both were kept (the
+    incoming copy saved with a " (desktop)" suffix). 12,048 such conflicts were
+    recorded, then resolved: 723 where the larger+newer copy won, 8,137 in
+    TouchTunes/pin resolved by keeping the larger (D:) version per your choice.
+  - Redundant full-SD backups deleted at your confirmation: "Flipper SD.zip"
+    (3.4 GB) and "Fz Adam Backup SD full 2027.rar" (208 MB) — already extracted.
+  - Desktop "SD CARD ASSETS" and D:\automotive_subs are now EMPTY.
+    (Those two now-empty top folders must be deleted manually in Explorer; the
+    remote bridge cannot remove mount-point folders.)
+
+PHASE B — sorting (subghz)
+  - Automotive fully unified into subghz\Vehicles\<BRAND>\ : merged Automotive\,
+    automotive_subs\ (_collected, kakuzu-autosubghz, sub-cars-main), the
+    American/Asian/European/Unknown region folders, the duplicate "SubGhz Samples"
+    tree, and UberGuidoZ\Sub-GHz\Vehicles. Brand case folded (Windows is
+    case-insensitive). Manufacturer-group folders kept (e.g. CHRYSLER_DODGE_JEEP,
+    GM_CHEVROLET_BUICK_CADILLAC_GMC, GROUPE_PSA); their spelling variants merged.
+  - Misc relocations: genie-girud-1t (a Genie GARAGE opener, not a car) -> Garages;
+    X10 / modulation / quantum-fire protocol samples -> Misc; community-repo
+    README/INDEX docs -> subghz\_source_docs.
+  - Duplicate folders merged: "AOK AC114-01_WirelessControl" (space) -> underscore
+    variant; "Customer Assistance" -> Customer_Assistance_Buttons;
+    "flipperzero-touchtunes" -> TouchTunes.
+  - NFC / RFID / Infrared: duplicates removed during the merge; their existing
+    (well-structured, database-style) folder layouts were preserved as-is.
+
+HONDA 1.57 GB LOCK FILE — split for Flipper
+  subghz\Vehicles\_LOCKUNLOCK\HondaV2H4_OEM2_lock_70k\
+    HondaV2H4_OEM2_lock_70k.sub      (original, 1.57 GB, kept unchanged)
+    parts\HondaV2H4_OEM2_lock_70k_0001.sub ... _0725.sub
+    README.txt
+  Split into 725 valid standalone .sub files (header + 1000 RAW_Data lines each,
+  ~2.1 MB; last part 96 lines). Verified BIT-IDENTICAL: concatenating all parts'
+  RAW_Data reproduces the original body exactly (full per-part content check).
+
+STILL WORTH A LOOK (optional)
+  - ~3,200 " (desktop)"/" (alt)" copies remain where neither version was clearly
+    better (genuinely different same-name captures), mostly in subghz\Gates,
+    Ceiling_Fans, LED, Restaurant_Pagers, Misc, Garages. They can be bulk-resolved
+    by "keep larger" or "keep newer" on request.
+  - subghz\Vehicles now has ~100 entries (brands, manufacturer groups, a few model
+    and loose-file folders) — tidy but worth a glance.

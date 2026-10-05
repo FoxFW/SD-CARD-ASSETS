@@ -1,0 +1,9 @@
+# Release artifacts — these are attached to the GitHub Releases page, not committed to the repo
+*.zip
+
+# Too large for GitHub (exceeds the 100 MB per-file limit).
+# Its Flipper-ready split parts under .../HondaV2H4_OEM2_lock_70k/parts/ ARE tracked.
+subghz/Vehicles/_LOCKUNLOCK/HondaV2H4_OEM2_lock_70k/HondaV2H4_OEM2_lock_70k.sub
+
+# Local build log (written by the zip script; not part of the assets)
+_zip_progress.log
