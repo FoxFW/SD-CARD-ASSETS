@@ -1,0 +1,12 @@
+Filetype: Flipper Tire Pressure Monitoring System Key File
+Version: 1
+Frequency: 433920000
+Preset: FuriHalSubGhzPresetOok650Async
+Protocol: Schrader GG4
+Id: 1886815735
+Bit: 64
+Data: 00 70 76 85 F7 0B 4E 79
+Batt: 0
+Pressure: 1.860000
+Ts: 1788720036
+Temp: 28.000000
