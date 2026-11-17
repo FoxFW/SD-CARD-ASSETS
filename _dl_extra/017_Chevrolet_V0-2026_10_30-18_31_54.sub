@@ -1,0 +1,12 @@
+Filetype: Flipper SubGhz Key File
+Version: 1
+Frequency: 433920000
+Preset: FuriHalSubGhzPresetOok270Async
+Protocol: Chevrolet V0
+Bit: 96
+Key: AE 79 AB B9 23 6E 73 38
+Serial: 11434411
+Btn: 11
+HopHi: 9
+HopLo: 594441016
+Seed: 2691355445

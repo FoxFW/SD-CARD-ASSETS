@@ -14,20 +14,35 @@ A curated, de-duplicated collection of Flipper Zero SD-card assets — Sub-GHz (
 
 ## Getting it onto your Flipper
 
-### Option A — Clone the whole repo (easiest with GitHub Desktop)
-Clone or download the repository, then copy its folder contents onto your Flipper SD card. This gives you the complete, current file structure in one step and is the easiest way to stay up to date.
+The repository **is** the SD-card folder layout, so you just copy its folders onto your card. Two ways:
 
-### Option B — Download the zips from the Releases page
-The full set is ~5–6 GB, so for the Releases page it's split into **four** zips that each stay under GitHub's 2 GB per-file limit. **Download all four and extract each into the _root_ of your SD card** — they merge into the same folders automatically:
+### Option A - Clone the repo (recommended; always current)
+
+**Git Bash**
+1. Install Git from https://git-scm.com.
+2. Right-click the folder you want it in > **Git Bash Here**, then:
+   ```
+   git clone https://github.com/FoxFW/SD-CARD-ASSETS.git
+   ```
+   Smaller/faster (no history): `git clone --depth 1 https://github.com/FoxFW/SD-CARD-ASSETS.git`
+3. Open the new `SD-CARD-ASSETS` folder, select everything **except** the hidden `.git` folder, and copy it to the **root** of your SD card.
+4. Update later: run `git pull` in that folder, then recopy.
+
+**GitHub Desktop**
+1. **File > Clone repository > URL**, enter `https://github.com/FoxFW/SD-CARD-ASSETS`, pick a local path, **Clone**.
+2. **Repository > Show in Explorer**, then copy everything except the hidden `.git` folder to the SD-card root.
+3. Update later: click **Fetch origin / Pull**, then recopy.
+
+### Option B - Download the zips (no git needed)
+
+Grab both zips from the **Releases** page and extract each into the **root** of your SD card - they merge into the same folders:
 
 | Release asset | Contents | Approx. size |
 |---|---|---|
-| `FoxFW_SD_CARD_ASSETS_part1_core.zip` | subghz, infrared, nfc — everything except BadUSB & WAV | ~1.7 GB |
-| `FoxFW_SD_CARD_ASSETS_part2_badusb.zip` | badusb | ~0.9 GB |
-| `FoxFW_SD_CARD_ASSETS_part3_wav_player_A.zip` | wav_player (part 1 of 2) | ~1.5 GB |
-| `FoxFW_SD_CARD_ASSETS_part4_wav_player_B.zip` | wav_player (part 2 of 2) | ~1.5 GB |
+| `FoxFW_SD_CARD_ASSETS_core.zip` | everything except wav_player (subghz, infrared, nfc, badusb, music_player, ...) | ~1.1 GB |
+| `FoxFW_SD_CARD_ASSETS_wav_player.zip` | the wav_player audio | ~1.5 GB |
 
-The split is only to satisfy GitHub's size limit — extract all four to the same place and the folders recombine.
+> **Heads-up:** the release zips are a point-in-time snapshot. If the release is behind the latest commits they may be slightly stale - clone (Option A) for the newest files. In practice only `core.zip` changes between releases; `wav_player.zip` rarely does.
 
 ## Note on the large Honda lock capture
 

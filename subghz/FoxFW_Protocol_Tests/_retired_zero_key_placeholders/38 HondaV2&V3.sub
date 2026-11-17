@@ -1,0 +1,12 @@
+Filetype: Flipper SubGhz Key File
+Version: 1
+Frequency: 433920000
+Preset: FuriHalSubGhzPresetOok650Async
+Protocol: HondaV2&V3
+Bit: 148
+Key: 00 00 00 00 00 00 00 00
+Variant: 2
+Rolling: 0
+Tail: 0
+BtnHi: 0
+BtnLo: 0

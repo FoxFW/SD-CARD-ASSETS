@@ -1,0 +1,14 @@
+Filetype: Flipper SubGhz Key File
+Version: 1
+Frequency: 433920000
+Preset: FuriHalSubGhzPreset2FSKDev476Async
+Protocol: Land Rover V0
+Bit: 81
+Key: A2 85 E3 0D 69 D3 03 86
+Serial: 879059
+Btn: 4
+BtnSig: 10651107
+Cnt: 7
+Check: 6
+Tail: 32767
+ExtraBit: 1

@@ -1,1 +1,0 @@
-RabbitRu:d=4,o=6,b=140:f,f,g,g,a,f,f,g,g,a,p,f,f,g,g,a,f,f,g,g,a

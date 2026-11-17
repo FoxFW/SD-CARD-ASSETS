@@ -1,0 +1,10 @@
+Filetype: Flipper SubGhz Key File
+Version: 1
+Frequency: 433920000
+Preset: FuriHalSubGhzPresetOok650Async
+Protocol: Code Alarm
+Bit: 60
+Key: 00 00 00 00 00 00 00 00
+Serial: 0
+Btn: 0
+Cnt: 0

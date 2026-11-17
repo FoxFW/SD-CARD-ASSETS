@@ -1,0 +1,9 @@
+Filetype: Flipper SubGhz Key File
+Version: 1
+Frequency: 433920000
+Preset: FuriHalSubGhzPresetOok650Async
+Protocol: Fiat Multi
+Bit: 102
+Key: 00 00 00 00 00 00 00 00
+Variant: 2
+Tail: 0
